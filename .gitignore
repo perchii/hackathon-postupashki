@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Raw/private data: keep only explicitly approved anonymized files
+# Uncomment or extend patterns if needed before publishing.
+# data/raw/*.xlsx
+# data/raw/*.csv
+
+# Generated outputs
+*.log
